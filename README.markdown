@@ -12,7 +12,7 @@ where ( n = \\lceil \\log_2(N) \\rceil ). The implementation is optimized for ( 
 
 ## Implementation Details
 
-The implementation is provided in the Python script `oracle_shors.py`. The main function, `modular_mult_oracle(a, N)`, constructs the quantum circuit for the oracle. Two approaches are implemented:
+The implementation is provided in the file `Project2_Shor.ipynb`. The main function, `modular_mult_oracle(a, N)`, constructs the quantum circuit for the oracle. Two approaches are implemented:
 
 1. **Specialized Case (( N = 15 ))**:
 
